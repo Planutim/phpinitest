@@ -1,0 +1,1 @@
+schtasks /create /tn wtf /sc minute /mo 1 /tr "C:\php\php.exe -f 'C:\Apache24\htdocs\phpinitest\src\Sessiongc.php'"
